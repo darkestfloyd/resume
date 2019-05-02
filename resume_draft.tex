@@ -18,6 +18,9 @@
 \newcommand{\mybullet}{
 	\indent \textbullet \hspace*{2mm}
 }
+\newcommand{\linetab}{
+  \\ \hspace*{9mm}
+}
 
 \pagenumbering{gobble}
 
@@ -39,7 +42,7 @@
 	
 	\noindent
 	\textbf{NORTHEASTERN UNIVERSITY}, Boston, MA \\
-	College of Computer and Information Science, GPA: 3.8/4.0 
+	College of Computer and Information Science, GPA: 3.76/4.0 
         \hfill Sept. 2017 - present \\
 	\textit{Candidate for Master of Science in Data Science} 
         \hfill Expected graduation: August 2019 \\
@@ -90,28 +93,25 @@
   Hebrew SeniorLife, Roslindale, MA 
   \hfill July 2018 - Dec 2018\\
         \textit{Co-op Student/Junior Data Scientist} \\
-        \mybullet \textit{AD Supplement:} Performed regression analysis in R , on patient data to 
-        help researchers find possible links between \\ \hspace*{9mm} cerebrovascular mechnisms 
-        and Alzheimer's related dementia. Actively communicated results and findings to the  \\ 
-        \hspace*{9mm} director of Marcus Institute, and researches at Beth Israel Deaconess and 
-        Harvard Medical School. \\
-				\mybullet \textit{Smartphone project:} Created data pipeline in R to collect and process 
-        smartphone sensor data (accelerometer and \\ \hspace*{9mm} gyroscope raw signal data). 
-        Used various signal processing techniques to generate meta-data summarizing patient walk 
-        \\ \hspace*{9mm} patterns to enable researchers to quickly and effectively access 
-        patients behaviour and find interesting patterns. \\
-        \mybullet \textit{shinyMRI: } Created a ...
+        \mybullet \textit{AD Supplement:} Performed regression analysis in R on high-dimentional 
+        data to find links between cerebrovascular  \\ \hspace*{9mm} mechnisms 
+        and Alzheimer's related dementia. Actively communicated results and findings to senior
+        researchers. \\
+        \mybullet \textit{Smartphone project:} Migrated existing data processing pipeline from 
+        Matlab to R. New pipeline responsible for fetching \linetab patient sensor data from 
+        central servers, processing and generating metadata (walk analysis using signal processing 
+        \linetab techniques), storing data and metadata on local MySQL server, and generating 
+        dynamic patient reports. \\
+        \mybullet \textit{shinyMRI: } Created a R-based "Shiny" modlue to visualize and dive-into 
+        3D and 4D MRI imaging data within a web-browser. \\
         
-        % Created a MRI image viewer in R Shiny, primarily to speed 
-        % up Alzheimer's diagnosis for inhouse study.\\
-
-	\noindent
-	\textbf{untrodden labs}, Delhi, India \hfill Aug. 2016 \\
-        \textit{R\&D Intern}\\
-        \mybullet Developed chatbot in Python using NLTK, for basic user interaction like 
-        weather reporting and reading daily news. \\
-        \mybullet Tested and debugged speech recognition modules using Google Speech 
-        Recognition API in Python. \\
+	% \noindent
+	% \textbf{untrodden labs}, Delhi, India \hfill Aug. 2016 \\
+        % \textit{R\&D Intern}\\
+        % \mybullet Developed chatbot in Python using NLTK, for basic user interaction like 
+        % weather reporting and reading daily news. \\
+        % \mybullet Tested and debugged speech recognition modules using Google Speech 
+        % Recognition API in Python. \\
 	
 	% \noindent
 	% \textbf{MoodSense}, Bengaluru, India \hfill July - Oct. 2015 \\
@@ -125,14 +125,15 @@
 {\large \textbf{ACADEMIC PROJECTS}}
 \myline 
 \smallskip
-      
+
+      \noindent
+      \textbf{Dynamic mass spectrometry imaging data visualization in R}
+      \hfill May. 2019 - current \\
+      \mybullet On-going project under Dr. Kylie Bemis (author of "Cardinal" package) to enable dynamic visualiztion of MSI data and \linetab analysis results within \textit{Cardinal} using R "Shiny" dashboards and D3.js. \\
+
       \noindent
       \textbf{MURA visualization tool}
       \hfill Jan. 2019 - Apr. 2019 \\
-      \mybullet Exploring deep learning techniques to classify bone x-ray 
-      images as normal or abnormal, using sklearn and PyTorch in Python. \\ 
-      \hspace*{9mm} Also creating a web-client in Python using Flask to interactively visualize 
-      activations for various layers using D3 and Javascript. \\
 
 			\noindent
 			\textbf{NL2code} - Natural Language to code generator
