@@ -19,6 +19,10 @@
 	\indent 
   \textbullet \hspace*{2mm}
 }
+\newcommand{\mysubbullet}{
+	\indent 
+  - \hspace*{2mm}
+}
 \newcommand{\linetab}{
   \\ \hspace*{9mm}
 }
@@ -31,9 +35,9 @@
     Somerville, MA | 
     \href{mailto:nischal.bhatewara@gmail.com}{nischal.bhatewara@gmail.com} | 
     (857) 277-9145 \\
-                GitHub: \href{https://github.com/darkestfloyd}{DarkestFloyd} | 
+		Blog: \href{https://medium.com/@darkestfloyd}{medium.com/@darkestfloyd} |
                 LinkedIn: \href{https://www.linkedin.com/in/nischalmc}{nischalmc} |
-		Blog: \href{https://medium.com/@darkestfloyd}{medium.com/@darkestfloyd} \\
+                GitHub: \href{https://github.com/darkestfloyd}{DarkestFloyd} \\
 		% Available: October 2019 \\
 	\end{center}
 	
@@ -58,17 +62,56 @@
 	\smallskip
 	
   \noindent
-  \textbf{\href{https://www.berghealth.com/}{BERG LLC}}, Framingham, MA
+  \textbf{\href{https://www.berghealth.com/}{BERG LLC}}, Framingham, MA 
   \hfill Nov 2019 - present \\
-  \textit{Data Scientist} \\
-  \mybullet Assist clinical teams in biomarker discovery by applying statistical analysis and hypothesis testing methods in R. \\
-  \mybullet Build neural networks models to optimize running time and precision of internal AI platform - bAIcis\textregistered - using keras. \\
-  \mybullet Build R Shiny dashboards to provide key metrics and overview of internal processes and data stores. \\
-  \mybullet Build pipelines to gather data and perform quality checks to prepare data for further analysis using tidyverse packages. \\
-  \mybullet Communicate findings and bottlenecks to external teams and management via presentations and written reports. \\
-  \mybullet Create visualizations of significant results for publications and posters using ggplot2 in R. \\
+  \textit{Data Scientist II, \hspace*{1mm} HPC engineer} \\
+  Tools: R, RStudio, Shiny, tidyverse, git, linux, ganglia \\
+  % \mybullet Assist clinical teams in biomarker discovery by applying statistical analysis and hypothesis testing methods in R. \\
+  \mybullet Statistical analysis: \\
+  \mysubbullet Perform survival analysis on cohort of n>100 pancreatic cancer patients to understand effectiveness of various \\\hspace*{10mm}chemotherapy and adjuvent treatments using Kaplan-Meier curve in R, resulting in a poster presentation at ESMO 2020. \\
+  \mysubbullet Perform statistical analysis on omic data (p>20k) using Wilcox tests and ordinal regressions to obtain predictive biomarker \\\hspace*{10mm}panel for early detection of Pancreatic Cancer and for survival related outcomes in cohort of n>100 patients. \\
+  % \mysubbullet Apply ordinal regression to build panel of biomarkers used to discriminate various stages of pancreatic cancer. \\
+  \mysubbullet Perform validation study using open and freely available data from NCBI websites, backing internal results with \\\hspace*{10mm}independent data resulting in stronger papers and posters for conferences. \\
+  % \mybullet Built end-to-end data pipelines for high-dimensional longitudinal data used for biomarker discovery using tidyverse. \\
+  \mybullet Data pipelines: \\
+  \mysubbullet Built fully automated data processing pipeline to process longitudinal clinical data of n>200k patients, resulting in \\\hspace*{10mm}discovery of various clinical features that impacted survival outcomes for COVID-19 patients by bAIcis\textregistered. \\
+  \mysubbullet Built data processing pipeline to gather data from multiple data sources - clinical data using RESTful API, omics data from \hspace*{10mm}SQL servers and excel files - for n>450 patients, further performing QC checks and merging data based on timepoints. \\
+  \mysubbullet Built pipelines to obtain external Patent data (uspto.gov), DrugBank data (drugbank.com), PubMed data (NCBI) and \\\hspace*{10mm}cross-reference with internal biomarkers for use by upper management, cutting down time required to find key markers. \\
+  \mysubbullet Improve legacy SQL data pipeline by applying filters and aggregation in SQL to cut down processing time by 68\%. \\
+  \mybullet Data dashboards and visualizations: \\ 
+  \mysubbullet Built interactive data dashboard to allow clinicians to examine impact of clinical features on survival outcomes for various \hspace*{10mm}subpopulation of COVID-19 patients (by age, race, comorbidities, etc), further deployed dashboard on Azure cloud. \\
+  \mysubbullet Built R-Shiny dashboards to track key metrics and provide overview of internal processes and data stores. \\
+  \mysubbullet Create data visualizations of analysis methods and results for publications and posters using ggplot2 in R. \\
+  \mybullet Deep learning: Trained over 2k deep neural network models to optimize running time and precision of bAIcis\textregistered using keras, \hspace*{10mm}cutting down on-boarding time of new team members getting started with bAIcis\textregistered. \\
+  % \mybullet Communicate findings and bottlenecks of analysis to external teams and management via presentations and reports. \\
+  \mybullet Provide support to Analytics team as Linux administrator for Analytics Server (Turing) and HPC cluster of 55 CPU nodes \hspace*{10mm}and 2 GPU nodes (Bayes cluster), further deploy and test new versions of bAIcis\textregistered on cluster. \\
+  \mybullet Contribute to company IP via software implementations and improvements to AI platform and legacy dashboards. \\
 
-  % \noindent
+% \mybullet Data Ingestion and Processing: Build modular and scalable data ingestion and processing pipelines in R. \\
+  %   Ingest multi-modal clinical and omics data using RESTful APIs and local SQL database. \\
+  %   Gath logitudinal data and perform aggrgation and checks.  \\
+  %   Orchestration using CRON in Linux \\
+  %   Manage data storage and backup using CRON and R. \\
+  %   Pipeline to convert bayseian networks to graphs supported by internal dashboards. \\
+  % \mybullet Statistical Analysis: Perform survival analysis to provide insights into performance of treatments and adjuvent therapies. \\
+  % Perform univariate regression analysis to identify key features to differentiate various populations of patients. \\
+  % Perform validation studies using freely avaialble datasets from NCBI to validate candidate markers. \\
+  % \mybullet Dashboards and visualization: Build scalable R Shiny dashboard to provide overview of key metrics to senior management. \\
+  %   Build data aggregation dashboard to provide aggregated view of fluid and tissue samples on-site using data from FreezerWorks and LIMS systems. \\
+
+  % \mybullet Machine Learning and Deep learning  \\
+  % % Perform multivate regression analysis to build predictive models for 
+  % \mybullet Storytelling \\
+  % \mybullet Linux and HPC engineer \\
+  % \mybullet Misc. initiatives \\
+  % \mybullet Validation of results using literature  \\
+  
+    
+  %\textit{\textbullet \hspace*{2mm} Linux System Admin} \hfill Mar 2021 - present \\
+  %\textit{\textbullet \hspace*{2mm} Data Scientist II} \hfill Jan 2021 - present \\
+  %\textit{\textbullet \hspace*{2mm} Data Scientist I} \hfill Nov 2019 - Dec 2020 \\
+  % Highly self-motivated and capable of prioritizing deliverables among multiple simultaneous projects in an agile environment.
+    % \noindent
   % \textbf{Khoury College of Computer Sciences}, Northeastern University, Boston, MA
   % \hfill Jan 2019 - Aug 2019 \\
   % \textit{Graduate Teaching Assistant} \\ 
@@ -152,77 +195,77 @@
 % 		% \textbf{Markup Languages: } & LaTeX, RMarkdown, Markdown, HTML, XML \\
 % 	\end{tabular} \\ \\
 	
-\noindent
-{\large \textbf{RELEVANT PROJECTS}}
-\myline 
-\smallskip
+% \noindent
+% {\large \textbf{RELEVANT PROJECTS}}
+% \myline 
+% \smallskip
 
-      \noindent
-      \textbf{\href{https://github.com/kuwisdelu/CardinalVis/}{CardinalVis}} - 
-      Dynamic data visualization for Mass Spectrometry Imaging (MSI) experiments 
-      \hfill May 2019 - Aug 2019 \\
-      \hfill \textit{Project Repository: \href{https://github.com/kuwisdelu/CardinalVis/}{https://github.com/kuwisdelu/CardinalVis/}}\\
-      \mybullet Created R shiny dashboard and modules in R. \\
-      \mybullet Application is open-sourced and intended to cut down research times in MSI experiment research. \\
+%       \noindent
+%       \textbf{\href{https://github.com/kuwisdelu/CardinalVis/}{CardinalVis}} - 
+%       Dynamic data visualization for Mass Spectrometry Imaging (MSI) experiments 
+%       \hfill May 2019 - Aug 2019 \\
+%       \hfill \textit{Project Repository: \href{https://github.com/kuwisdelu/CardinalVis/}{https://github.com/kuwisdelu/CardinalVis/}}\\
+%       \mybullet Created R shiny dashboard and modules in R. \\
+%       \mybullet Application is open-sourced and intended to cut down research times in MSI experiment research. \\
 
-      \noindent
-      \textbf{\href{http://ec2-3-212-216-62.compute-1.amazonaws.com/}{MURA}} - Bone X-ray image 
-      classification and data visualization project \hfill Jan 2019 - Apr 2019 \\
-      \hfill \textit{Website: \href{http://ec2-3-212-216-62.compute-1.amazonaws.com/}{http://ec2-3-212-216-62.compute-1.amazonaws.com/}}\\
-      % Tools: Python, PyTorch, torchvision, git, scikit-learn, D3.js, Flask, AWS \\
-      % \mybullet Trained and tuned CNN classification models using PyTorch and torchvision in Python. \\
-      \mybullet Trained and tuned several classification models using sklearn and PyTorch in Python. \\
-      \mybullet Obtained best models for each classified using Cohen's Kappa metric. \\
-      % \mybullet Created dynamic data visualization to explore models and confusion matrix 
-        % using D3.js and Javascript. \\
-      \mybullet Created RESTful API service to provide real-time classification and dynamic visualizations
-      using Flask-RESTful in Python. \\
-      \mybullet Deployed application, models, and visualization to AWS EC2 instance. \\
-      % \mybullet Future Work: Implement online learning technique to incorporate feedback from
-      % UI to backend model. \\
+%       \noindent
+%       \textbf{\href{http://ec2-3-212-216-62.compute-1.amazonaws.com/}{MURA}} - Bone X-ray image 
+%       classification and data visualization project \hfill Jan 2019 - Apr 2019 \\
+%       \hfill \textit{Website: \href{http://ec2-3-212-216-62.compute-1.amazonaws.com/}{http://ec2-3-212-216-62.compute-1.amazonaws.com/}}\\
+%       % Tools: Python, PyTorch, torchvision, git, scikit-learn, D3.js, Flask, AWS \\
+%       % \mybullet Trained and tuned CNN classification models using PyTorch and torchvision in Python. \\
+%       \mybullet Trained and tuned several classification models using sklearn and PyTorch in Python. \\
+%       \mybullet Obtained best models for each classified using Cohen's Kappa metric. \\
+%       % \mybullet Created dynamic data visualization to explore models and confusion matrix 
+%         % using D3.js and Javascript. \\
+%       \mybullet Created RESTful API service to provide real-time classification and dynamic visualizations
+%       using Flask-RESTful in Python. \\
+%       \mybullet Deployed application, models, and visualization to AWS EC2 instance. \\
+%       % \mybullet Future Work: Implement online learning technique to incorporate feedback from
+%       % UI to backend model. \\
 
-			\noindent
-      \textbf{\href{https://github.com/darkestfloyd/NL2code}{NL2code}} - Natural Language to 
-      Python code generator \hfill Jan 2018 - Apr 2018 \\
-      \hfill \textit{Project Repository: \href{https://github.com/darkestfloyd/NL2code}{https://github.com/darkestfloyd/NL2code}}\\
-      % Tools: Python, TensorFlow, Theano, NLTK, beautifulsoup, git \\
-      \mybullet Scraped open-source Python repositories to gather training data 
-      using beautifulsoup in Python. \\
-      % \mybullet Performed data manipulation using NLTK and Python. \\
-      \mybullet Trained custom neural translation system using Theano in Python. \\
-      \mybullet Improved accuracy and BLUE score over base paper. \\
-      % \mybullet Significant accuracy improvement and minor BLUE score improvement over base paper. \\
-      % \mybullet Future Work: Scrape data from leading machine learning repositories in Python for better generalization. \\
+% 			\noindent
+%       \textbf{\href{https://github.com/darkestfloyd/NL2code}{NL2code}} - Natural Language to 
+%       Python code generator \hfill Jan 2018 - Apr 2018 \\
+%       \hfill \textit{Project Repository: \href{https://github.com/darkestfloyd/NL2code}{https://github.com/darkestfloyd/NL2code}}\\
+%       % Tools: Python, TensorFlow, Theano, NLTK, beautifulsoup, git \\
+%       \mybullet Scraped open-source Python repositories to gather training data 
+%       using beautifulsoup in Python. \\
+%       % \mybullet Performed data manipulation using NLTK and Python. \\
+%       \mybullet Trained custom neural translation system using Theano in Python. \\
+%       \mybullet Improved accuracy and BLUE score over base paper. \\
+%       % \mybullet Significant accuracy improvement and minor BLUE score improvement over base paper. \\
+%       % \mybullet Future Work: Scrape data from leading machine learning repositories in Python for better generalization. \\
 
-			% \noindent
-      % \textbf{\href{https://sichenghao1992.shinyapps.io/DS5110/}{Flashlight}} - Real Estate 
-      % Property Assessment Visualization for the City of Boston \hfill Oct 2017 - Dec 2017 \\
-      % \mybullet Created dashboard to visualize various aspects of real estate assessment values 
-      % using R ``Shiny'' and Leaflet in R. \\
-      % \mybullet Geocoded missing coordinate values using Open Address dataset and Google Maps Geocode API in Python. \\
-      % \mybullet Created Python scripts to automate conversion of Zillow's shapefiles to GeoJSON format and gathering of meta-data. \\ 
+% 			% \noindent
+%       % \textbf{\href{https://sichenghao1992.shinyapps.io/DS5110/}{Flashlight}} - Real Estate 
+%       % Property Assessment Visualization for the City of Boston \hfill Oct 2017 - Dec 2017 \\
+%       % \mybullet Created dashboard to visualize various aspects of real estate assessment values 
+%       % using R ``Shiny'' and Leaflet in R. \\
+%       % \mybullet Geocoded missing coordinate values using Open Address dataset and Google Maps Geocode API in Python. \\
+%       % \mybullet Created Python scripts to automate conversion of Zillow's shapefiles to GeoJSON format and gathering of meta-data. \\ 
 			
-			% \noindent
-			% \textbf{Movie Recommendation System} \hfill Apr 2017 - June 2017\\
-			% \mybullet Implemented a Recurrent Neural Network using TensorFlow in Python to recommend 
-      % movies to a user. By analysing \\ \hspace*{9mm} the sequence of movies reviewed, we were 
-      % able to achieve high scores in peer review. \\ 
+% 			% \noindent
+% 			% \textbf{Movie Recommendation System} \hfill Apr 2017 - June 2017\\
+% 			% \mybullet Implemented a Recurrent Neural Network using TensorFlow in Python to recommend 
+%       % movies to a user. By analysing \\ \hspace*{9mm} the sequence of movies reviewed, we were 
+%       % able to achieve high scores in peer review. \\ 
 
-	% \noindent
-	% {\large \textbf{PERSONAL PROJECTS}}
-	% \myline 
-	% \smallskip
+% 	% \noindent
+% 	% {\large \textbf{PERSONAL PROJECTS}}
+% 	% \myline 
+% 	% \smallskip
 	
-		% \noindent
-		% \textbf{Ames Housing Price Prediction} \hfill Oct. - Dec. 2016 \\
-    % \mybullet Created regression models in Scikit-Learn and neural models in TensorFlow to 
-    % predict housing prices in Python. \\
-    % \mybullet Best submission one of top 20\% on Kaggle public leaderboard. \\
+% 		% \noindent
+% 		% \textbf{Ames Housing Price Prediction} \hfill Oct. - Dec. 2016 \\
+%     % \mybullet Created regression models in Scikit-Learn and neural models in TensorFlow to 
+%     % predict housing prices in Python. \\
+%     % \mybullet Best submission one of top 20\% on Kaggle public leaderboard. \\
 		
-		% \noindent
-		% \textbf{Melody} - Open-Sourced Music Player Framework for Android \hfill July - Aug. 2015\\
-		% \mybullet Designed and developed music player framework for Android using RxJava and 
-			% 		Scala Reactive Extensions, which is freely\\ \hspace*{9mm} available under the MIT 
+% 		% \noindent
+% 		% \textbf{Melody} - Open-Sourced Music Player Framework for Android \hfill July - Aug. 2015\\
+% 		% \mybullet Designed and developed music player framework for Android using RxJava and 
+% 			% 		Scala Reactive Extensions, which is freely\\ \hspace*{9mm} available under the MIT 
           % license and is commonly used by Android developers worldwide. \\
 	
 	\noindent
@@ -243,6 +286,5 @@
 		% of 2013. \hfill Sept. 2013 \\
 		% \mybullet Awarded Karnataka state scholarship, covering 70\% tuition fee for undergraduate 
 		% study at Alliance University. \hfill 2013 - 2017 \\
-		
 	
 \end{document}
